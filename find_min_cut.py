@@ -2,7 +2,7 @@ from karger_min_cut import *
 	
 if __name__=="__main__":
     
-    graph = Graph(graph_file = 'input\kargerMinCut.txt')
+    graph = Graph(graph_file = 'input\karger_min_cut.txt')
     karger_mc = KargerMinCut(graph.adj_dict)
 	
     count = 0
